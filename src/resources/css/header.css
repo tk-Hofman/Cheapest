@@ -1,0 +1,29 @@
+.header {
+    background: var(--primary-blue); /* 共通のグラデーションを使用 */
+    padding: var(--header-padding); /* 共通のパディングを使用 */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100% !important; /* 強制的に画面幅を確保 */
+    max-width: none !important; /* 余計な最大幅の制限を無効化 */
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.log-out {
+    font-weight: bold;
+    margin-right: 1%;
+    color: black;
+}
