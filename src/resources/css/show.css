@@ -1,0 +1,35 @@
+.page-title {
+    margin-bottom: 15px;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-left: 43%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar-wrapper {
+    flex-shrink: 0; /* サイドバーの幅が縮まないように設定 */
+    width: 8%; /* サイドバーの幅を固定 */
+    background-color: #f4f4f4;
+    height: 100%; /* 親要素の高さを占有 */
+    overflow-y: auto; /* スクロールを可能に */
+}
+
+.content-wrapper {
+  flex-grow: 1; /* 残りのスペースを占有 */
+  padding: 20px;
+  overflow: auto; /* コンテンツが多い場合にスクロール可能 */
+  background-color: white;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+  height: calc(100vh - 50px); /* ヘッダー分を除いた高さに調整 (ヘッダーが50pxの場合) */
+  overflow: hidden; /* コンテンツがはみ出さないように */
+}
+
+.main-layout > Header {
+  height: 50px; /* ヘッダーの高さを固定 (必要に応じて変更) */
+  flex-shrink: 0;
+}

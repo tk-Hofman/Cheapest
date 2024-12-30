@@ -1,6 +1,6 @@
 <template>
     <header class="header">
-        <div class="container">
+        <div class="header-container">
             <h1 class="title">Cheapest</h1>
             <a href="#" class="log-out">ログアウト</a>
         </div>
