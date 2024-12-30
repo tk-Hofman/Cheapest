@@ -1,0 +1,26 @@
+.sidebar {
+    width: 8%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+    height: 100vh; /* 高さを画面全体に */
+    box-sizing: border-box;
+    position: fixed; /* サイドバーを固定 */
+}
+
+.sidebar-list {
+    margin-top: 50%;
+    margin-left: 5%;
+    text-align: left;
+}
+
+.sidebar-item {
+    margin-bottom: 50%;
+    color: #555;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.sidebar-item:hover {
+    color: #1d72b8; /* ホバー時の色 */
+}

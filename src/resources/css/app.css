@@ -4,11 +4,6 @@
 /* 共通のCSS変数を定義 */
 :root {
     --primary-blue: linear-gradient(to right, #4facfe, #00f2fe);
+    --base-color:#EFF0F2;
     --header-padding: 10px 20px;
-}
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }

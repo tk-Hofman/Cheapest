@@ -1,18 +1,23 @@
 <template>
-        <!-- Header を表示 -->
-        <Header />
+    <div class="main-layout">
+        <div class="main-content">
+            <Header />
+            <Sidebar />
+            <div class="content">
+                <h1>メインコンテンツエリア</h1>
+            </div>
+        </div>
+    </div>
 </template>
 
 <script>
-import Header from '../Layouts/Header.vue'; // Header.vue をインポート
+import Header from '../Layouts/Header.vue';
+import Sidebar from '../Layouts/Sidebar.vue';
 
 export default {
     components: {
-        Header, // Header を登録
+        Header,
+        Sidebar,
     },
 };
 </script>
-
-<style scoped>
-
-</style>
